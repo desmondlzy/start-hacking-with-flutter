@@ -8,11 +8,14 @@ My notes on how to get started on flutter
 
 ## Golden Rule
 
-Whenever you are not sure how to implement something, Google it.
+GOOGLE IS OUR BEST FRIEND
+
+### It means that...
+Whenever you feel unsure how to implement layouts/features, or the signature of a class you plan to use, just google it out. Usually google is simply the most efficient way of getting problems solved. Based on my not-so-long learning and coding experience, Google with proper keywords gives a good solution in the top 3 results 95% of the time.
 
 ## Read List
 
-In general, the [official website](https://flutter.dev/) gives a lot of useful information, tips, and best practices...
+In general, the [official website](https://flutter.dev/) gives a lot of useful information, tips, and best practices. The official website should be always be of top priority (and Google usually direct you there).
 
 Finishing these items, you will be able to write any UI by yourself (theoretically).
 
@@ -28,3 +31,5 @@ But Flutter really have a large number of widgets coming with the SDK that help 
 - [Widget of the week](https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG), my fav!.
 - Read the rest part of the [cookbook](https://flutter.dev/docs/cookbook) as per your need.
 - [Sliver](https://flutter.dev/docs/development/ui/advanced/slivers) is a very important concept and it is almost inevitable you will use it, but it can be also a bit hard to understand.
+
+Then you may want to know how [Flutter manages state](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options). This is a concept you don't need to know right away at this stage. But as the app scales up, lack of state management planning will eventually leads to spaghetti codebase, and a disaster of maintainance. This part is also why modern declarative UI frameworks are favored over those traditional frameworks. 
